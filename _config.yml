@@ -9,6 +9,11 @@
 # --- Required options --- #
 ############################
 
+# link to custom domain
+url: "umanity.site"  # Your custom domain
+baseurl: ""  # Set this to "" unless you're using a subpath (e.g., "/blog")
+
+
 # Name of website
 title: Umanity
 
@@ -22,9 +27,9 @@ author: Omar Rivas
 navbar-links:
   About Me: "aboutme"
   Tutorials:
-    - AI: "https://rivassolar.github.io/"
-    - Cycling: "https://rivassolar.github.io/"
-  Author's home: "https://rivassolar.github.io/"
+    - AI: "umanity.site"
+    - Cycling: "umanity.site/"
+  Author's home: "umanity.site"
 
 ################
 # --- Logo --- #
